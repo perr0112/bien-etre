@@ -246,12 +246,13 @@ Header
 
   position: fixed;
   top: var(--s);
+  mix-blend-mode: difference;
   /* top: 50%;
   transform: translateY(-50%); */
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   justify-content: space-between;
-  mix-blend-mode: difference;
+  mix-blend-mode: difference; */
 }
 
 .header div {

@@ -111,7 +111,6 @@ function initScrollServices() {
             trigger: gridContainer,
             start: 'top top',
             end: 'bottom 10%',
-            markers: true,
             scrub: true,
             onUpdate: (e) => {
                 console.log(e.progress);
